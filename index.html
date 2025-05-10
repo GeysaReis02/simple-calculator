@@ -5,49 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description="description" content="calculadora simples">
     <link rel="stylesheet" href="style.css">
+    <script src="effects.js"></script>
     <title>Calculadora Simples</title>
 </head>
 <body>
     <div class="base">
-        <h1>Calculadora | Geysa Reis</h1>
+        <h1>Calculadora Simples | Geysa Reis</h1>
         <div class="calculator">
-            <p id="result"></p>
+            <h2>Calculadora</h2>
+            <p id="result">Resultado</p>
             <table>
                 <tr>
-                    <td><button>%</button></td>
-                    <td><button>CE</button></td>
-                    <td><button>C</button></td>
+                    <td><button class="button">C</button></td>
+                    <td><button class="button"><</button></td>
+                    <td><button class="button">/</button></td>
+                    <td><button class="button">X</button></td>
                 </tr>
                 <tr>
-                    <td><button>1/x</button></td>
-                    <td><button>x²</button></td>
-                    <td><button>2√x</button></td>
-                    <td><button>÷</button></td>
+                    <td><button class="button">7</button></td>
+                    <td><button class="button">8</button></td>
+                    <td><button class="button">9</button></td>
+                    <td><button class="button">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>x</button></td>
+                    <td><button class="button">4</button></td>
+                    <td><button class="button">5</button></td>
+                    <td><button class="button">6</button></td>
+                    <td><button class="button">+</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>-</button></td>
+                    <td><button class="button">1</button></td>
+                    <td><button class="button">2</button></td>
+                    <td><button class="button">3</button></td>
+                    <td rowspan="2"><button class="button" style="height:106px;">=</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>+</button></td>
+                    <td colspan="2"><button class="button" style="width:106px;">0</button></td>
+                    <td><button class="button">,</button></td>
                 </tr>
-                <tr>
-                    <td colspan="2"><button>0</button></td>
-                    <td><button>,</button></td>
-                    <td rowspan="2"><button>=</button></td>
-                </tr>
-            </table>
+                </table>
+            </div>
         </div>
     </div>
 </body>
